@@ -1,0 +1,210 @@
+body {
+    font-family: 'Montserrat',
+    sans-serif;
+}
+/* header section */
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto;
+}
+.nav-li {
+    display: inline-block;
+}
+.nav-li:not(:last-of-type) {
+    margin-right: 90px;
+}
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: #FA4A0C;
+}
+/* App section */
+.app {
+    background-image: url('../img/bg-1.png');
+    color: white;
+    text-align: center;
+    padding: 80px 0 162px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.app-pretitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+.app-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 80px;
+    max-width: 799px;
+    margin: 10px auto;
+}
+.app-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 54px;
+    color: white;
+}
+.app-button {
+    width: 236px;
+    height: 68px;
+    color:  white;
+    border-radius: 30px;
+    Padding: 16px 0px 16px 0px;
+    font-size: 24px;
+    line-height: 36px;
+}
+.app-button:first-of-type {
+    background: #FA4A0C;
+    border: 1px solid #FA4A0C;
+    margin-right: 67px;
+}
+.app-button:last-of-type {
+    background: none;
+    border: 1px solid white;
+}
+/* How the app works section */
+.app-section-text {
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    color: black;
+    margin: 56px auto 70px auto;
+}
+/* Mob-1 section */
+.mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mobile-pretitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FA4A0C;
+}
+.mobile-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    color: #252B42;
+    max-width: 560px;
+}
+.mobile-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    color: #737373;
+    max-width: 467px;
+}
+/* Mob-2 section */
+.mobile-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-2-pretitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FA4A0C;
+}
+
+.mobile-2-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    color: #252B42;
+    max-width: 480px;
+}
+
+.mobile-2-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    color: #737373;
+    max-width: 462px;
+}
+.mb-2 {
+    margin: 108px auto 184px 600px;
+}
+/* Order section */
+.order {
+    background-image: url('../img/bg-2.png');
+    color: white;
+    text-align: center;
+    padding: 131px 0 130px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.order-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+}
+.order-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    margin: 10px auto;
+}
+.order-button {
+    width: 142px;
+    height: 64px;
+    color: white;
+    border-radius: 10px;
+    Padding: 18px 31px 18px 31px;
+    margin-top: 49px;
+    font-size: 16px;
+    line-height: 28px;
+}
+.order-button:first-of-type {
+    background: #FA4A0C;
+    border: 1px solid #FA4A0C;
+    margin-right: 16px;
+}
+.order-button:last-of-type {
+    background: none;
+    border: 1px solid white;
+}
+/* Footer section */
+.footer-section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-text {
+font-weight: bold;
+font-size: 12px;
+line-height: 18px;
+margin-left: 677px;
+}
